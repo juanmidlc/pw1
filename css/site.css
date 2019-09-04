@@ -1,0 +1,16 @@
+#main-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main-nav ul li{
+    float: left;
+    list-style: none;
+    padding: 0 20px; /* Aquí se aplican las reglas desde el "top" hacia el sentido de las agujas del reloj, es decir, primero top, luego right, luego down y luego left
+                    Seria lo mismo que una regla:
+                    padding-top: 0;
+                    padding-rigth: 20px; */
+    
+    background: green;
+    margin: 0 20px;
+}
